@@ -5,5 +5,5 @@
  - Git
  - HTML
  - CSS
- - JavaScript
+ - Internet
 
