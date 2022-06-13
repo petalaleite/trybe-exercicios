@@ -9,3 +9,7 @@ a:visited {
 a:hover {
   background-color: #FFFF00;
 }
+
+ol, ul {
+  list-style: none;
+}
