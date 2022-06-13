@@ -5,3 +5,7 @@ h1, p {
 a:visited {
   color: #FF0000;
 }
+
+a:hover {
+  background-color: #FFFF00;
+}
