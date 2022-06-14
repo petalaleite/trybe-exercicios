@@ -1,0 +1,24 @@
+body div:first-of-type {
+  background-color: #0000ff;
+}
+
+body div:nth-of-type(2) {
+  background-color: #7500D1;
+}
+
+body div:nth-of-type(3) {
+  background-color: #5cd100;
+  height: 35px;
+}
+
+body div:nth-of-type(4) {
+  background-color: #340744;
+}
+
+body div:last-of-type {
+  background-color: #4040ff;
+}
+
+body h3:nth-of-type(2n+1) {
+  font-style: italic;
+}
