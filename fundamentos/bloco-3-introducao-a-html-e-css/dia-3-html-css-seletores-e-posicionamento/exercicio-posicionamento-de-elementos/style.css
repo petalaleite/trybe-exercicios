@@ -1,0 +1,39 @@
+body {
+  background: url("https://images6.alphacoders.com/860/860645.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.super-mario {
+  width: 200px;
+  position: absolute;
+  bottom: 200px;
+  left: 250px;
+}
+
+.goomba {
+  width: 100px;
+  position: absolute;
+  bottom: 100px;
+  left: 300px;
+}
+
+.baloon {
+  position: absolute;
+  z-index: 1;
+  right: 450px;
+  top: 250px
+}
+
+.speech {
+  font-size: 25px;
+  right: 480px;
+  z-index: 2;
+  position: absolute;
+  bottom: 320px;
+}
+
+.bowser {
+  width: 200px;
+  position: fixed;
+  right: 250px;
+  bottom: 100px;
+}
