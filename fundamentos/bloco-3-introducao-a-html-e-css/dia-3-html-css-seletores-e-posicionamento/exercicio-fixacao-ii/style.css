@@ -1,0 +1,34 @@
+div:first-of-type {
+  background-color: #0000ff;
+}
+
+div:nth-of-type(2) {
+  background-color: #7500D1;
+}
+
+div:nth-of-type(3) {
+  background-color: #5cd100;
+  height: 35px;
+}
+
+div:nth-of-type(4) {
+  background-color: #340744;
+}
+
+div:last-of-type {
+  background-color: #4040ff;
+}
+
+div:nth-child(2n+1) h3 {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+div:hover {
+  border: 2px solid black;
+}
+
+div:nth-of-type(2n) h3 {
+  color: white;
+
+}

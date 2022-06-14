@@ -1,0 +1,15 @@
+h1, p {
+  text-align: center;
+}
+
+a:visited {
+  color: #FF0000;
+}
+
+a:hover {
+  background-color: #FFFF00;
+}
+
+ol, ul {
+  list-style: none;
+}
