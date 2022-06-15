@@ -1,4 +1,4 @@
-Intruções do exercício
+Instruções do exercício
 
 1 - Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda.
 
