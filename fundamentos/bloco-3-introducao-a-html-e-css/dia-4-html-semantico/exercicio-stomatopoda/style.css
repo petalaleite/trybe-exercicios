@@ -143,3 +143,7 @@ h5 {
 hr {
     border: 3px solid #f49923;
 }
+
+a:hover {
+    color: #f49923
+}
