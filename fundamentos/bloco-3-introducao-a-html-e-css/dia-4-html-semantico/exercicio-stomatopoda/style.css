@@ -1,0 +1,89 @@
+body {
+    background-color: #ffffff;
+    margin: 0 20%;
+}
+
+header {
+    background-color: #7882A4;
+    height: 50px;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    ;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    text-align: center;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: bold;
+}
+
+ul li {
+    display: inline;
+    margin: 0 15px;
+    color: #5d6063
+}
+
+h1 {
+    padding-top: 5px;
+    font-family: 'Ropa Sans', sans-serif;
+    color: #5d6063;
+}
+
+#primeiro-texto {
+    font-family: 'Nuosu SIL', serif;
+    color: #5d6063;
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 35%;
+    margin-left: 10px;
+}
+
+img {
+    height: 30%;
+    float: right;
+    margin-right: 40px;
+    margin-top: 95px;
+
+}
+
+table,
+td,
+th {
+    border: 1px solid #5d6063;
+    color: #5d6063;
+}
+
+th,
+td {
+    padding: 6px;
+}
+
+footer {
+    background-color: #CCD1E4;
+}
+
+footer p {
+    text-align: center;
+    padding: 7px 0;
+}
+
+.texto {
+    font-family: 'Nuosu SIL', serif;
+    color: #5d6063;
+    font-size: 16px;
+    text-align: justify;
+}
+
+h3,
+h2 {
+    color: #5d6063;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.referencias li {
+    display: block;
+}
