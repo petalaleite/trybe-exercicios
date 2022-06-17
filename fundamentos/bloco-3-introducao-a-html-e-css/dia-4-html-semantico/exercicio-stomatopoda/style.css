@@ -11,6 +11,11 @@ header {
     ;
 }
 
+header h1 {
+    color: black;
+    padding-top: 5px;
+}
+
 ul {
     list-style: none;
 }
@@ -42,11 +47,19 @@ h1 {
     margin-left: 10px;
 }
 
-img {
+.stomatopoda {
     height: 30%;
     float: right;
     margin-right: 40px;
     margin-top: 95px;
+
+}
+
+.mantis {
+    height: 30%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
 
 }
 
@@ -76,6 +89,7 @@ footer p {
     color: #5d6063;
     font-size: 16px;
     text-align: justify;
+    margin-right: 35%;
 }
 
 h3,
