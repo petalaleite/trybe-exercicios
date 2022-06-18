@@ -1,14 +1,19 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     background-color: #ffffff;
     margin: 0 20%;
 }
 
+article {
+    width: 850px;
+}
+
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: #f49923;
+    font-size: 18px;
 }
 
 header {
@@ -34,16 +39,33 @@ nav ul {
     font-weight: bold;
 }
 
-ul li {
+nav ul li {
     display: inline;
     margin: 0 50px;
-    color: #5d6063
+    color: #5d6063;
+    padding: 10px 0;
 }
+
+/* * títulos */
 
 h1 {
     padding-top: 5px;
     font-family: 'Ropa Sans', sans-serif;
     color: #5d6063;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Ropa Sans', sans-serif;
+    color: #5d6063;
+    margin-left: 10px;
+}
+
+h3,
+h2 {
+    color: #5d6063;
+    font-family: 'Ropa Sans', sans-serif;
+    margin-left: 10px;
 }
 
 #primeiro-texto {
@@ -51,25 +73,26 @@ h1 {
     color: #5d6063;
     font-size: 16px;
     text-align: justify;
-    margin-right: 35%;
     margin-left: 10px;
+    width: 600px;
+    margin-right: 0;
 }
+
+/* * imagens */
 
 .stomatopoda {
     height: 30%;
     float: right;
     margin-right: 30px;
-    margin-top: 95px;
-
 }
 
 .mantis {
     height: 30%;
     float: right;
-    margin-top: 20px;
-    margin-right: 50px;
-
+    margin-right: 25px;
 }
+
+/* * tabela */
 
 table,
 td,
@@ -90,28 +113,12 @@ caption {
     padding: 6px;
 }
 
-footer {
-    background-color: #CCD1E4;
-}
-
-footer p {
-    text-align: center;
-    padding: 7px 0;
-}
-
 .texto {
     font-family: 'Nuosu SIL', serif;
     color: #5d6063;
     font-size: 16px;
     text-align: justify;
-    margin-right: 35%;
-    margin-left: 10px;
-}
-
-h3,
-h2 {
-    color: #5d6063;
-    font-family: 'Ropa Sans', sans-serif;
+    width: 600px;
     margin-left: 10px;
 }
 
@@ -121,10 +128,10 @@ h2 {
 
 .aside {
     position: absolute;
-    border: 1px solid #5d6063;
-    right: 330px;
-    top: 500px;
+    border: 1px solid #f49923;
     background-color: #F7F6F3;
+    right: 255px;
+    top: 500px;
 }
 
 aside p {
@@ -135,15 +142,25 @@ aside p {
     font-size: 18px;
 }
 
-h5 {
-    font-family: 'Ropa Sans', sans-serif;
-    color: #5d6063;
+.sto-colorido {
+    height: 105px;
 }
 
 hr {
     border: 3px solid #f49923;
 }
 
-a:hover {
-    color: #f49923
+/* * footer */
+
+footer {
+    background-color: #CCD1E4;
+}
+
+footer p {
+    text-align: center;
+    padding: 7px 0;
+}
+
+.rodape {
+    font-family: 'Ropa Sans', sans-serif;
 }
