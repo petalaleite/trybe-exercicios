@@ -1,0 +1,166 @@
+body {
+    background-color: #ffffff;
+    margin: 0 20%;
+}
+
+article {
+    width: 850px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f49923;
+    font-size: 18px;
+}
+
+header {
+    background-color: #7882A4;
+    height: 50px;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    ;
+}
+
+header h1 {
+    color: black;
+    padding-top: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul {
+    text-align: center;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 50px;
+    color: #5d6063;
+    padding: 10px 0;
+}
+
+/* * títulos */
+
+h1 {
+    padding-top: 5px;
+    font-family: 'Ropa Sans', sans-serif;
+    color: #5d6063;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Ropa Sans', sans-serif;
+    color: #5d6063;
+    margin-left: 10px;
+}
+
+h3,
+h2 {
+    color: #5d6063;
+    font-family: 'Ropa Sans', sans-serif;
+    margin-left: 10px;
+}
+
+#primeiro-texto {
+    font-family: 'Nuosu SIL', serif;
+    color: #5d6063;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 10px;
+    width: 600px;
+    margin-right: 0;
+}
+
+/* * imagens */
+
+.stomatopoda {
+    height: 30%;
+    float: right;
+    margin-right: 30px;
+}
+
+.mantis {
+    height: 30%;
+    float: right;
+    margin-right: 25px;
+}
+
+/* * tabela */
+
+table,
+td,
+th,
+caption {
+    border: 1px solid #5d6063;
+    color: #5d6063;
+    font-family: 'Nuosu SIL', serif;
+}
+
+caption {
+    font-weight: bolder;
+}
+
+th,
+td,
+caption {
+    padding: 6px;
+}
+
+.texto {
+    font-family: 'Nuosu SIL', serif;
+    color: #5d6063;
+    font-size: 16px;
+    text-align: justify;
+    width: 600px;
+    margin-left: 10px;
+}
+
+.referencias li {
+    display: block;
+}
+
+.aside {
+    position: absolute;
+    border: 1px solid #f49923;
+    background-color: #F7F6F3;
+    right: 255px;
+    top: 500px;
+}
+
+aside p {
+    padding: 0 10px;
+    text-align: center;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sto-colorido {
+    height: 105px;
+}
+
+hr {
+    border: 3px solid #f49923;
+}
+
+/* * footer */
+
+footer {
+    background-color: #CCD1E4;
+}
+
+footer p {
+    text-align: center;
+    padding: 7px 0;
+}
+
+.rodape {
+    font-family: 'Ropa Sans', sans-serif;
+}
