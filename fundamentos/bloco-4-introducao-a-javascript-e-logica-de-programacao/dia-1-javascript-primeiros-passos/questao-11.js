@@ -2,7 +2,6 @@ let salarioBruto = 20000.0;
 let valorInss = 0;
 let valorIr = 0;
 let salarioBase = salarioBruto - valorInss;
-let salarioLiquido = salarioBase - valorIr;
 
 if (salarioBruto <= 1556.94) {
 	valorInss = salarioBruto * 0.08;
@@ -28,4 +27,6 @@ if (salarioBase <= 1903.98) {
 	(valorIr = salarioBase * 0.275) - 859.36;
 }
 
-console.log(salarioBase - valorIr);
+let salarioLiquido = salarioBase - valorIr;
+
+console.log("O salário liquido vai ser " + salarioLiquido);
