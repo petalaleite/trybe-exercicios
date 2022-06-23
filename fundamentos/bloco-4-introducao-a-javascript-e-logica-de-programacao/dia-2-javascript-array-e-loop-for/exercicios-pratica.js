@@ -53,6 +53,11 @@ for (let i = 0; i < numbers.length; i += 1) {
 	}
 }
 
+if (impares.length > 0) {
+	console.log(impares.length);
+} else {
+	console.log("Nenhum número impar encontrado");
+}
 console.log(impares.length);
 
 // Questão 7
