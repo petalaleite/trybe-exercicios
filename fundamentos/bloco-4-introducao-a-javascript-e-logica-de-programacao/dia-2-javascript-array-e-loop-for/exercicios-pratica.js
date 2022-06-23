@@ -38,3 +38,19 @@ if (media > 20) {
 } else {
 	console.log("Valor menor ou igual a 20");
 }
+
+// Questão 5
+
+numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// Questão 6
+
+numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let impares = [];
+for (let i = 0; i < numbers.length; i += 1) {
+	if (numbers[i] % 2 !== 0) {
+		impares.push(numbers[i]);
+	}
+}
+
+console.log(impares.length);
