@@ -54,3 +54,16 @@ for (let i = 0; i < numbers.length; i += 1) {
 }
 
 console.log(impares.length);
+
+// Questão 7
+
+// Questão 8
+
+numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+array = [];
+
+for (let i = 1; i <= 25; i += 1) {
+	array.push(i);
+}
+
+console.log(array);
