@@ -67,3 +67,9 @@ for (let i = 1; i <= 25; i += 1) {
 }
 
 console.log(array);
+
+// Questão 9
+
+for (let i = 0; i < array.length; i += 1) {
+	console.log(array[i] / 2);
+}
