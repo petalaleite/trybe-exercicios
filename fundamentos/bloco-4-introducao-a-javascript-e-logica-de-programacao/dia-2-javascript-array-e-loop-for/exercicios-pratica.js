@@ -43,6 +43,16 @@ if (media > 20) {
 
 numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
+let maior = numbers[0];
+
+for (let i = 0; i < numbers.length; i += 1) {
+	if (numbers[i] > maior) {
+		maior = numbers[i];
+	}
+}
+
+console.log(maior);
+
 // Questão 6
 
 numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
@@ -61,6 +71,15 @@ if (impares.length > 0) {
 console.log(impares.length);
 
 // Questão 7
+
+numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menor = numbers[0];
+
+for (let i = 0; i < numbers.length; i += 1) {
+	if (numbers[i] < menor) menor = numbers[i];
+}
+
+console.log(menor);
 
 // Questão 8
 
