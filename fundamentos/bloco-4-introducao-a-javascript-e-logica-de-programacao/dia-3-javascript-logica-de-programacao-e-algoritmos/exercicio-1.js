@@ -4,7 +4,7 @@ O fatorial é representado pelo sinal !
 
 Com base nessas informações, crie um algoritmo que retorne o fatorial de 10. */
 
-let n = 10;
+/* let n = 10;
 let fatorial = 1;
 
 for (let i = 1; i <= n; i += 1) {
@@ -37,3 +37,17 @@ for (let i = 0; i < array.length; i += 1) {
 }
 
 console.log(menorPalavra);
+ */
+// questão 4
+
+let primos = [];
+
+for (let i = 2; i <= 50; i += 1) {
+	if (i % 2 !== 0) {
+		i++;
+	} else {
+		primos.push(i);
+	}
+}
+
+console.log(primos);
