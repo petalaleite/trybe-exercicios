@@ -59,3 +59,19 @@ console.log(
 		" se chama " +
 		leitor.livrosFavoritos[0]["titulo"]
 );
+
+// Questão 7
+
+leitor.livrosFavoritos.push({
+	tilulo: "Harry Potter e o Prisioneiro de Azkaban",
+	autor: "JK Rowling",
+	editora: "Rocco",
+});
+
+console.log(leitor.livrosFavoritos);
+
+// Questão 8
+
+console.log(
+	leitor.nome + " tem " + leitor.livrosFavoritos.length + " favoritos"
+);
