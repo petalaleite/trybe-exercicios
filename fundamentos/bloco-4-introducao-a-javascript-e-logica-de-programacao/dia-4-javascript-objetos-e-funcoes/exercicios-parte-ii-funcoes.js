@@ -36,6 +36,7 @@ function retornaMenorValor(array) {
 }
 
 console.log(retornaMenorValor(arrayTeste));
+
 // Questão 4
 
 let arrayNomes = ["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"];
@@ -54,13 +55,15 @@ console.log(retorneMaiorCaracteres(arrayNomes));
 
 // Questão 5
 
-// arrayQuestao5 = [2, 3, 2, 5, 8, 2, 3];
+arrayQuestao5 = [2, 3, 2, 5, 8, 2, 3];
 
-// function retornaMaisRepetido(array) {
-//   for (let i in array) {
-//     if ()
-//   }
-// }
+function retornaMaisRepetido(array) {
+  for (let i in array) {
+    if ()
+  }
+}
+
+retornaMaisRepetido(arrayQuestao5);
 // Questão 6
 
 function somaNatural(n) {
@@ -75,4 +78,12 @@ function somaNatural(n) {
 console.log(somaNatural(5));
 // Questão 7
 
-function verificaString(word, ending) {}
+function verificaFimPalavra(word, ending) {
+	if (ending.slice()) {
+		true;
+	} else {
+		false;
+	}
+}
+
+verificaString("trybe", "be");
