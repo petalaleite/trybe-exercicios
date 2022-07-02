@@ -77,9 +77,13 @@
     paragrafo.innerText = "algum texto";
     sessao.appendChild(paragrafo);
 
-    let sessaoDois = document.createElement("section");
-    sessaoDois.className = "left-content";
-    principal.appendChild(sessaoDois);
+    let sessaoEsquerda = document.createElement("section");
+    sessaoEsquerda.className = "left-content";
+    principal.appendChild(sessaoEsquerda);
+
+    let sessaoDireita = document.createElement("section");
+    sessaoDireita.className = "right-content";
+    principal.appendChild(sessaoDireita);    
   </script>
 </body>
 
