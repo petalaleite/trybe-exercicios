@@ -60,9 +60,15 @@
 <body>
   <script>
     let corpo = document.getElementsByTagName("body")[0];
+
     let agaum = document.createElement("h1");
     agaum.innerText = "Exercício 5.2 JavaScript DOM";
     corpo.appendChild(agaum);
+
+    let principal = document.createElement("main");
+    principal.classList = "main-content";
+    corpo.appendChild(principal);
+
   </script>
 </body>
 
