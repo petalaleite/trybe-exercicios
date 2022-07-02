@@ -27,3 +27,28 @@ console.log(document.getElementById("elementoOndeVoceEsta").nextElementSibling);
 console.log(
 	document.getElementById("pai").lastElementChild.previousElementSibling
 );
+
+// * Crie um irmão para elementoOndeVoceEsta
+let irmaoOndeVoceEsta = document.getElementById(
+	"elementoOndeVoceEsta"
+).nextElementSibling;
+
+let novaSection = document.createElement("p");
+novaSection.innerText = "testando";
+
+irmaoOndeVoceEsta.appendChild(novaSection);
+
+// // * Crie um filho para elementoOndeVoceEsta
+let filhoOndeVoceEsta = document.getElementById("elementoOndeVoceEsta").
+// // * Crie um filho para primeiroFilhoDoFilho
+
+// let ingredientList = document.querySelector('.ingredientes-list')
+
+// for(let i = 0; i < ingrediente.lenght) {
+// 	let ingredient = ingreditente[i];
+
+// 	let ingredienteListItem = document.createElement("li");
+// 	ingredienteListItem.innerText = ingredient;
+
+// 	ingredientList.appendChild(ingredienteListItem);
+// }
