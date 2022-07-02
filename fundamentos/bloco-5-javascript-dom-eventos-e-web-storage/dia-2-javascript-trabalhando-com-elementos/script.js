@@ -33,13 +33,21 @@ let irmaoOndeVoceEsta = document.getElementById(
 	"elementoOndeVoceEsta"
 ).nextElementSibling;
 
-let novaSection = document.createElement("p");
-novaSection.innerText = "testando";
+let novoP = document.createElement("p");
+novoP.innerText = "irmão de elementoOndeVoceEsta";
 
-irmaoOndeVoceEsta.appendChild(novaSection);
+irmaoOndeVoceEsta.appendChild(novoP);
 
 // // * Crie um filho para elementoOndeVoceEsta
-let filhoOndeVoceEsta = document.getElementById("elementoOndeVoceEsta").
+let filhoOndeVoceEsta = document.getElementById(
+	"elementoOndeVoceEsta"
+).lastElementChild;
+
+let filhoH = document.createElement("h1");
+filhoH.innerText = "ultimo filho do elementoOndeVoceEsta";
+
+filhoOndeVoceEsta.appendChild(filhoH);
+
 // // * Crie um filho para primeiroFilhoDoFilho
 
 // let ingredientList = document.querySelector('.ingredientes-list')
