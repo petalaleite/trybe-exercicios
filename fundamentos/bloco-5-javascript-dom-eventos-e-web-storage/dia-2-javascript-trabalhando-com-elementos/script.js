@@ -31,32 +31,27 @@ console.log(
 // * Crie um irmão para elementoOndeVoceEsta
 let irmaoOndeVoceEsta = document.getElementById(
 	"elementoOndeVoceEsta"
-).nextElementSibling;
+).parentElement;
 
-let novoP = document.createElement("p");
-novoP.innerText = "irmão de elementoOndeVoceEsta";
+let novoP = document.createElement("section");
+novoP.id = "irmão de elementoOndeVoceEsta";
 
 irmaoOndeVoceEsta.appendChild(novoP);
 
 // // * Crie um filho para elementoOndeVoceEsta
-let filhoOndeVoceEsta = document.getElementById(
-	"elementoOndeVoceEsta"
-).lastElementChild;
+let filhoOndeVoceEsta = document.getElementById("elementoOndeVoceEsta");
 
-let filhoH = document.createElement("h1");
-filhoH.innerText = "ultimo filho do elementoOndeVoceEsta";
+let filhoH = document.createElement("section");
+filhoH.id = "filho do elementoOndeVoceEsta";
 
 filhoOndeVoceEsta.appendChild(filhoH);
 
 // // * Crie um filho para primeiroFilhoDoFilho
+let primeiroFilhoDoFilho = document.getElementById("primeiroFilhoDoFilho");
 
-// let ingredientList = document.querySelector('.ingredientes-list')
+let filhoPrimeiroFilhoDoFilho = document.createElement("section");
+filhoPrimeiroFilhoDoFilho.id = "filhoPrimeiroFilhoDoFilho";
 
-// for(let i = 0; i < ingrediente.lenght) {
-// 	let ingredient = ingreditente[i];
+primeiroFilhoDoFilho.appendChild(filhoPrimeiroFilhoDoFilho);
 
-// 	let ingredienteListItem = document.createElement("li");
-// 	ingredienteListItem.innerText = ingredient;
-
-// 	ingredientList.appendChild(ingredienteListItem);
-// }
+// * Remova todos os elementos filhos de paiDoPai exceto, pai, elementoOndeVoceEsta e primeiroFilhoDoFilho
