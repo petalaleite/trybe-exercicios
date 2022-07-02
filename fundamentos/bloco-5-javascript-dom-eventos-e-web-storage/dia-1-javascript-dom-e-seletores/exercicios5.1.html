@@ -75,8 +75,8 @@
     mudaTextoHeader();
 
     function mudaPParaMaiusculo() {
-      const textoP = document.getElementsByTagName("p").toUpperCase();
-      textoP.toUpperCase();
+      const textoP = document.getElementsByTagName("p")[0];
+      textoP.innerText = textoP.innerText.toUpperCase();
     }
     mudaPParaMaiusculo();
 
