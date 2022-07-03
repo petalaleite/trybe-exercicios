@@ -107,11 +107,14 @@
     }
 
     agaum.className = "title";
+
     let headerTTres = document.getElementsByTagName("h3");
     for (let i = 0; i < 3; i += 1) {
       headerTTres[i].className = "description";
     }
 
+    let sessaoLeft = document.getElementsByClassName("left-content")[0];
+    principal.removeChild(sessaoLeft);
 
   </script>
 </body>
