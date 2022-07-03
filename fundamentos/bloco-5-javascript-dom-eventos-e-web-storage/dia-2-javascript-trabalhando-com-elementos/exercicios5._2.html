@@ -90,6 +90,15 @@
     imagem.className = "left-content";
     sessaoEsquerda.appendChild(imagem);
 
+    let lista = document.createElement("ul");
+    sessaoDireita.appendChild(lista);
+    arrayLista = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+
+    for (let i in arrayLista) {
+      let itemLista = document.createElement("li");
+      itemLista.innerText = arrayLista[i];
+      lista.appendChild(itemLista);
+    }
   </script>
 </body>
 
