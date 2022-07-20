@@ -38,3 +38,38 @@ const objectValues = (object) => {
 
 const allLessons = Object.assign({}, { lesson, lesson2, lesson3 });
 console.log(allLessons);
+
+// questão 6
+const studentsNumber = (object) => {
+let total = 0;
+let arr = Object.keys(object);
+
+for (i in arr) {
+  total += object[arr[i]].numeroEstudantes;
+}
+return total
+}
+console.log(studentsNumber(allLessons));
+
+// questão 7
+const getValueByNumber = (object, index) => {
+  Object.values(object)[index];
+}
+console.log(getValueByNumber(lesson, 0));
+
+
+// questão 8
+const verifyKeyValue = (object, key, value) => {
+  let arr = Object.entries(object)
+  let compareKeyValue = false;
+  for (let i in arr) {
+    if (arr[i][0] === key && arr[i][1] === value) {
+      compareKeyValue = true;
+    }
+  }
+
+  return compareKeyValue;
+}
+
+console.log(verifyKeyValue(lesson3,'turno', 'noite'));
+console.log(verifyKeyValue(lesson3, 'materia', 'Maria Clara'));
