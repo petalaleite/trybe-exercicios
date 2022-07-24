@@ -26,9 +26,9 @@ There are more than 1500 hours of training, distributed between content study, o
  - [x] CSS
  - [x] Internet
  - [x] Introduction to JavaScript and Programming Logic
- - [ ] JavaScript: DOM, Events and Web Storage
- - [ ] HTML and CSS: Forms, Flexbox and Responsive 
- - [ ] Introduction to JavaScript ES6 and Unit Testing
+ - [x] JavaScript: DOM, Events and Web Storage
+ - [x] HTML and CSS: Forms, Flexbox and Responsive 
+ - [x] Introduction to JavaScript ES6 and Unit Testing
  - [ ] JavaScript ES6 High Order Functions
  
  ## Front-end Development Module
