@@ -114,3 +114,10 @@ const someBookWasReleasedOnThe80s = () => {
 }
 
 console.log(someBookWasReleasedOnThe80s());
+
+// questao 7
+
+
+function authorUnique() {
+  
+}
