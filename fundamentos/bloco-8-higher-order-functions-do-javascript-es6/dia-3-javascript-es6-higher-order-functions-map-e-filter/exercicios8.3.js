@@ -77,3 +77,10 @@ const nameAndAge = () => {
 }
 
 console.log(nameAndAge());
+
+// questão 3
+
+const fantasyOrScienceFiction = () => {
+  return books.filter((book) => book.genre == 'Ficção Científica' || book.genre === 'Fantasia');
+}
+console.log(fantasyOrScienceFiction());
