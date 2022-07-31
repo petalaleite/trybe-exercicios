@@ -100,8 +100,17 @@ const booksOrderedByReleaseYearDesc = () => {
 
 console.log(booksOrderedByReleaseYearDesc());
 
+// questão 5
 const everyoneWasBornOnSecXX = () => {
   return books.every((person) => person.author.birthYear >= 1901);
 }
 
 console.log(everyoneWasBornOnSecXX());
+
+// questão 6
+
+const someBookWasReleasedOnThe80s = () => {
+  return books.some((year) => year.releaseYear > 1979 && year.releaseYear < 1989);
+}
+
+console.log(someBookWasReleasedOnThe80s());
