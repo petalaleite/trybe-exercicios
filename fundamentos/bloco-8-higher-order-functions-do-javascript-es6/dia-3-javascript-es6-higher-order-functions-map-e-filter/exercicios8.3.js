@@ -102,3 +102,12 @@ const fantasyOrScienceFictionAuthors = () => {
 };
 
 console.log(fantasyOrScienceFictionAuthors());
+
+// questão 6
+
+const oldBooks = () => {
+  const filtered = books.filter((book) => 2022 - book.releaseYear > 60);
+  return filtered.map((book) => book.name);
+}
+
+console.log(oldBooks());
