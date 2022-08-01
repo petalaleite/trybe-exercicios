@@ -84,3 +84,12 @@ const fantasyOrScienceFiction = () => {
   return books.filter((book) => book.genre == 'Ficção Científica' || book.genre === 'Fantasia');
 }
 console.log(fantasyOrScienceFiction());
+
+// questão 4
+
+const oldBooksOrdered = () => {
+  const booksYear = books.filter((book) => 2022 - book.releaseYear > 60);
+  return booksYear.sort((a, b) => a.releaseYear - b.releaseYear);
+}
+
+console.log(oldBooksOrdered());
