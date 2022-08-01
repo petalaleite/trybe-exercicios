@@ -93,3 +93,12 @@ const oldBooksOrdered = () => {
 }
 
 console.log(oldBooksOrdered());
+
+// questão 5
+
+const fantasyOrScienceFictionAuthors = () => {
+  const filtered = books.filter((book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia'); // poderia usar o includes aqui
+  return filtered.map((book) => book.author.name).sort();
+};
+
+console.log(fantasyOrScienceFictionAuthors());
