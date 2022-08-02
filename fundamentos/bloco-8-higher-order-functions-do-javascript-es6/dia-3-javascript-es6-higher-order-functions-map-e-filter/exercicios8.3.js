@@ -111,3 +111,9 @@ const oldBooks = () => {
 }
 
 console.log(oldBooks());
+
+// questão 7
+
+const authorWith3DotsOnName = () => {
+  
+}
