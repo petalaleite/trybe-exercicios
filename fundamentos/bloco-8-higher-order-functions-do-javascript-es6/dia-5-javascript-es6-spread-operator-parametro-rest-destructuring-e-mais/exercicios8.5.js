@@ -127,3 +127,17 @@ const greet = (name, msg = 'Hi') => `${msg}, ${name}`;
 console.log(greet('John'));
 console.log(greet('John', 'Good morning')) ;;
 console.log(greet('Isabela', 'Oi'));
+
+// questão 9
+
+
+const yearSeasons = {
+  spring: ['March', 'April', 'May'],
+  summer: ['June', 'July', 'August'],
+  autumn: ['September', 'October', 'November'],
+  winter: ['December', 'January', 'February'],
+};
+
+const { spring, summer, autumn, winter } = yearSeasons;
+const months = [...spring, ...summer, ...autumn, ...winter];
+console.log(months);
