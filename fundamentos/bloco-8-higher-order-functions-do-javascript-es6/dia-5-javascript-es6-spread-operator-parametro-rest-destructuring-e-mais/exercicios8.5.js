@@ -95,7 +95,7 @@ const chiron = ['Chiron', 'Bugatti', 2016];
 const toObject = ((...[ name, brand, year ]) => ({ name, brand, year }));
 console.log(toObject(palio, shelbyCobra, chiron));
 
-// questão 6
+// questão 7
 
 const ships = [
   {
@@ -119,3 +119,11 @@ const shipLength = (({ name, length, measurementUnit }) => ( `${name} is ${lengt
 console.log(shipLength(ships[0]));
 console.log(shipLength(ships[1]));
 console.log(shipLength(ships[2]));
+
+// questão 8
+
+const greet = (name, msg = 'Hi') => `${msg}, ${name}`;
+
+console.log(greet('John'));
+console.log(greet('John', 'Good morning')) ;;
+console.log(greet('Isabela', 'Oi'));
